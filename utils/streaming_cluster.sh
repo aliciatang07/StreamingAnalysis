@@ -1,0 +1,2 @@
+spark-submit --class com.RecSystem.StreamingClustering --master spark://localhost:7077 ./target/scala-2.11/RecSystem-assembly-1.0.jar $1 $2 $3
+#<trainingDir> <testDir> <batchDuration> <numClusters> <numDimensions>
