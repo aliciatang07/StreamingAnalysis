@@ -1,4 +1,4 @@
-##Tech Stack 
+## Tech Stack 
 Kafka for streaming data processing <br/>
 MongoDB for database <br/>
 Spark for map reduce computation<br/>
@@ -19,7 +19,7 @@ possible: kubernetes, docker <br/>
 music listening preference
 
 
-##basic architecture
+## basic architecture
 separate data processing part, that part provide separate api 
 so backend can call on it and has its own logic 
 
