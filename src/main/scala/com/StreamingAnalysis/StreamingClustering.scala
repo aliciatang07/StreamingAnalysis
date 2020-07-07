@@ -1,4 +1,4 @@
-package com.RecSystem
+package com.StreamingAnalysis
 import org.apache.spark.SparkConf
 import org.apache.spark.mllib.clustering.StreamingKMeans
 import org.apache.spark.mllib.linalg.Vectors

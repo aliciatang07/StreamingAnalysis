@@ -1,5 +1,5 @@
 
-name := "RecSystem"
+name := "StreamingAnalysis"
 
 version := "1.0"
 
@@ -11,7 +11,7 @@ val sparkVersion = "2.4.4"
 scalacOptions ++= List("-feature","-deprecation", "-unchecked", "-Xlint")
 assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = false)
 
-mainClass in (Compile, run) := Some("com.RecSystem")
+mainClass in (Compile, run) := Some("com.StreamingAnalysis")
 
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.RecSystem
+package com.StreamingAnalysis
 
 import org.apache.log4j.{Level, Logger}
 
